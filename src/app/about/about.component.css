@@ -1,0 +1,37 @@
+/* About Section */
+.about-section {
+  background-color: rgba(34, 34, 34, 0); /* Dark background with low transparency (0.7) */
+  padding: 80px 20px; /* Padding for spacing */
+  color: #ffffff; /* White text */
+  text-align: center;
+}
+
+.about-content {
+  max-width: 900px; /* Maximum width for content */
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 3rem; /* Title font size */
+  margin-bottom: 20px;
+  color: #00ffff; /* Cyan color for the title */
+  font-weight: bold;
+}
+
+.intro-text {
+  font-size: 1.5rem; /* Enlarged font size */
+  line-height: 1.8; /* Increased line height for readability */
+  margin: 20px 0;
+  color: #d3d3d3; /* Slightly softer white for readability */
+}
+
+.highlight {
+  color: #00ffff; /* Cyan for emphasis */
+  font-weight: bold;
+}
+
+/* Hover Effect on Highlight */
+.highlight:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

@@ -1,0 +1,92 @@
+/* Skills Section */
+.skills-section {
+  background-color: rgba(34, 34, 34, 0.2); /* Dark background with low transparency */
+  padding: 80px 20px; /* Padding for spacing */
+  color: #ffffff; /* White text */
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.skills-section h2 {
+  font-size: 3rem; /* Title font size */
+  color: #00ffff; /* Cyan color for the title */
+  margin-bottom: 40px;
+  padding-top: 0px;
+  padding-bottom: 50px;
+  font-weight: bold;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px; /* Gap between skill cards */
+}
+
+.skill-card {
+  background-color: rgba(0, 0, 0, 0.6); /* Slightly dark background */
+  border-width: 2px;
+  border-radius: 10px; /* Rounded corners */
+  padding: 30px 20px;
+  width: 250px; /* Fixed width for skill cards */
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Soft shadow */
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+  border: 3px solid #00ffff; /* Enlarged border */
+}
+
+.skill-card:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+  box-shadow: 0 0 30px #00ffff; /* Cyan glow on hover */
+}
+
+.skill-icon {
+  font-size: 4rem; /* Enlarged icon */
+  margin-bottom: 20px;
+  color: #00ffff; /* Cyan color for icons */
+}
+
+.skill-card h3 {
+  font-size: 1.8rem; /* Skill name font size */
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.skill-card p {
+  font-size: 1.2rem; /* Description font size */
+  margin-bottom: 20px;
+  color: #d3d3d3; /* Slightly softer white for readability */
+}
+
+.skill-progress {
+  height: 8px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #444444; /* Dark background for the progress bar */
+}
+
+.java {
+  width: 80%; /* Java progress bar */
+  background-color: #f3db00; /* Yellow for Java */
+}
+
+.python {
+  width: 75%; /* Python progress bar */
+  background-color: #306998; /* Python blue */
+}
+
+.webdev {
+  width: 90%; /* Web Development progress bar */
+  background-color: #e34f26; /* Web development orange */
+}
+
+.sql {
+  width: 85%; /* SQL progress bar */
+  background-color: #00618b; /* SQL blue */
+}
+
+/* Hover effect on skill cards */
+.skill-card:hover .skill-icon {
+  color: #ffffff; /* Change icon color to white on hover */
+}

@@ -1,0 +1,71 @@
+/* Certifications Section */
+.certifications-section {
+    background-color: rgba(34, 34, 34, 0.2); /* Dark background with low transparency */
+    padding: 80px 20px; /* Padding for spacing */
+    color: #ffffff; /* White text */
+    text-align: center;
+  }
+  
+  .certifications-section h2 {
+    font-size: 3rem; /* Title font size */
+    color: #00ffff; /* Cyan color for the title */
+    margin-bottom: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-bottom: 50px;
+  }
+  
+  .certifications-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px; /* Gap between certification cards */
+  }
+  
+  .certification-card {
+    background-color: rgba(0, 0, 0, 0.6); /* Dark background for cards */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    width: 300px; /* Fixed width for certification cards */
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Soft shadow */
+    transition: transform 0.3s ease-in-out;
+    border: 3px solid #00ffff; /* Enlarged border */
+
+  }
+  
+  .certification-card:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 0 30px #00ffff; /* Cyan glow on hover */
+  }
+  
+  .certification-icon {
+    font-size: 3rem; /* Icon size */
+    margin-bottom: 20px; /* Space between icon and text */
+  }
+  
+  .certification-card h3 {
+    font-size: 1.6rem; /* Certification title font size */
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .certification-card p {
+    font-size: 1.2rem; /* Description font size */
+    color: #d3d3d3; /* Slightly softer white for readability */
+    line-height: 1.6; /* Increased line height for better readability */
+    margin: 5px 0;
+  }
+  
+  /* Responsive Design for smaller screens */
+  @media (max-width: 768px) {
+    .certifications-container {
+      flex-direction: column; /* Stack certification cards vertically on small screens */
+      align-items: center;
+    }
+  
+    .certification-card {
+      width: 90%; /* Reduce the width of the cards */
+    }
+  }
+  

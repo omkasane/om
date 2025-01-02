@@ -1,0 +1,48 @@
+.contact-buttons .btn-email {
+  background-color: #6200ea; /* Purple */
+}
+
+.contact-buttons .btn-call {
+  background-color: #00bfae; /* Teal */
+}
+
+.contact-buttons .btn-linkedin {
+  background-color: #0077b5; /* LinkedIn Blue */
+}
+
+.contact-buttons .btn-twitter {
+  background-color: #1DA1F2; /* Twitter Blue */
+}
+
+.contact-buttons .btn-instagram {
+  background-color: #e4405f; /* Instagram Pink */
+}
+
+.contact-buttons .btn-map {
+  background-color: #34b7f1; /* Light Sky Blue */
+}
+
+/* Hover Effects for Specific Buttons */
+.contact-buttons .btn-email:hover {
+  background-color: #3700b3;
+}
+
+.contact-buttons .btn-call:hover {
+  background-color: #008c6e;
+}
+
+.contact-buttons .btn-linkedin:hover {
+  background-color: #005582;
+}
+
+.contact-buttons .btn-twitter:hover {
+  background-color: #0084b4;
+}
+
+.contact-buttons .btn-instagram:hover {
+  background-color: #d5004f;
+}
+
+.contact-buttons .btn-map:hover {
+  background-color: #0091cc;
+}

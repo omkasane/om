@@ -1,0 +1,20 @@
+<link href="https://cdn.jsdelivr.net/npm/boxicons/css/boxicons.min.css" rel="stylesheet">
+
+<nav class="nav bd-grid">
+  <div>
+    <a href="#hero" class="nav__logo">OK</a>
+  </div>
+  <div class="nav__menu" [class.active]="isMenuOpen" id="nav-menu">
+    <ul class="nav__list">
+      <li class="nav__item"><a routerLink="/home" class="nav__link active">Home</a></li>
+      <li class="nav__item"><a routerLink="/about" class="nav__link">About</a></li>
+      <li class="nav__item"><a routerLink="/skills" class="nav__link">Skills</a></li>
+      <li class="nav__item"><a routerLink="/projects" class="nav__link">Projects</a></li>
+      <li class="nav__item"><a routerLink="/certifications" class="nav__link">Certifications</a></li>
+      <li class="nav__item"><a routerLink="/contact" class="nav__link">Contact</a></li>
+    </ul>
+  </div>
+  <div class="nav__toggle" id="nav-toggle" (click)="toggleMenu()">
+    <i class='bx bx-menu'></i>
+  </div>
+</nav>

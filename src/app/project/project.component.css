@@ -1,0 +1,72 @@
+/* Projects Section */
+.projects-section {
+    background-color: rgba(34, 34, 34, 0); /* Dark background with low transparency */
+    padding: 50px 50px; /* Padding for spacing */
+    color: #ffffff; /* White text */
+    text-align: center;
+  }
+  
+  .projects-section h2 {
+    font-size: 3rem; /* Title font size */
+    color: #00ffff; /* Cyan color for the title */
+    margin-bottom: 40px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    padding-top: 0px;
+  }
+  
+  .projects-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 50px; /* Gap between project cards */
+  }
+  
+  .project-card {
+    background-color: rgba(0, 0, 0, 0.6); /* Dark background for cards */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    width: 300px; /* Fixed width for project cards */
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Soft shadow */
+    transition: transform 0.3s ease-in-out;
+    border: 3px solid #00ffff; /* Enlarged border */
+
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 0 30px #00ffff; /* Cyan glow on hover */
+  }
+  
+  .project-image {
+    width: 100%; /* Make the image take up the full width of the card */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for images */
+    margin-bottom: 20px;
+  }
+  
+  .project-content h4 {
+    font-size: 1.6rem; /* Project title font size */
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .project-content p {
+    font-size: 1.2rem; /* Description font size */
+    color: #d3d3d3; /* Slightly softer white for readability */
+    line-height: 1.6; /* Increased line height for better readability */
+  }
+  
+  /* Responsive Design for smaller screens */
+  @media (max-width: 768px) {
+    .projects-container {
+      flex-direction: column; /* Stack project cards vertically on small screens */
+      align-items: center;
+    }
+  
+    .project-card {
+      width: 90%; /* Reduce the width of the cards */
+    }
+  }
+  
